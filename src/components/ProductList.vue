@@ -115,7 +115,7 @@ const resetFilter = () => {
   <div v-if="showLoadMore" class="flex justify-center mt-8">
     <button
       @click="loadMore"
-      class="bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 transition-colors duration-200"
+      class="bg-blue-600 text-white px-6 py-3 rounded-md hover:bg-blue-700 transition-colors duration-200 cursor-pointer"
     >
       Load More
     </button>

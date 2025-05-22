@@ -5,7 +5,10 @@ import ProductList from "../components/ProductList.vue";
 
 const store = useStore();
 onMounted(() => {
-  store.dispatch("products/fetchProducts");
+  // Only fetch products if the products array is empty
+  if (store.getters["products/allProducts"].length === 0) {
+    store.dispatch("products/fetchProducts");
+  }
 });
 </script>
 
