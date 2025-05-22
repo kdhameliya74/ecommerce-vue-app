@@ -1,4 +1,4 @@
-# 🛍️ ShopSwift - Vue E-commerce App
+# 🛍️ Vue E-commerce App
 
 A modern e-commerce frontend built with **Vue 3**, featuring product listings, filters, a shopping cart, and product detail modals. This application demonstrates scalable state management with Vuex, smooth navigation using Vue Router, and elegant icons from lucide-vue-next.
 
