@@ -51,3 +51,20 @@ A modern e-commerce frontend built with **Vue 3**, featuring product listings, f
 npm install
 npm run dev
 ```
+
+## 🚀 Run the App with Docker
+
+### Using Docker CLI
+
+Build the Docker image:
+
+```bash
+docker build -t your-app-name .
+docker run -d your-app-name
+```
+
+### Using Docker Compose
+
+```bash
+docker compose up --build
+```
