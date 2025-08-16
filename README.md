@@ -60,7 +60,7 @@ Build the Docker image:
 
 ```bash
 docker build -t your-app-name .
-docker run -d your-app-name
+docker run -d -p 3000:5173 your-app-name
 ```
 
 ### Using Docker Compose
